@@ -5,8 +5,8 @@ app = Flask(__name__, static_folder="static")
 
 model = joblib.load("SVM_Model.pkl")
 scaler = joblib.load("scaler.pkl")
-
-
+#Hlo bro
+ 
 def extract_features(p):
     return [[
         len(p),
